@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- CSS FILE  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <title>Virtual Credit Card</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="card">
+            <div class="card-inner">
+                <div class="front">
+                    <img src="img/map.png" class="map-img">
+                    <div class="row">
+                        <img src="img/chip.png" width="60px">
+                        <img src="img/visa.png" width="80px">
+                    </div>
+                    <div class="row card-no">
+                        <p>2344</p>
+                        <p>1763</p>
+                        <p>9804</p>
+                        <p>5453</p>
+                    </div>
+                    <div class="row card-holder">
+                        <p>CARD HOLDER</p>
+                        <p>VALID TILL</p>
+                    </div>
+                    <div class="row name">
+                        <p id="yourName">LABIB KHAN</p>
+                        <p>10 / 23</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <img src="img/map.png" class="map-img">
+                    <div class="bar"></div>
+                    <div class="row card-cvv">
+                        <div>
+                            <img src="img/pattern.png" alt="">
+                        </div>
+                        <p>236</p>
+                    </div>
+                    <div class="row card-text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, debitis?</p>
+                    </div>
+                    <div class="row signature">
+                        <p>CUSTOMER SIGNATURE</p>
+                        <img src="img/visa.png" width="80px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="popup">
+            <h2>Enter Your Name</h2>
+            <input id="input-text" type="text" placeholder="Enter your name">
+            <button id="close" class="submit-btn">Submit</button>
+            <p>Made By <a href="https://github.com/labibkhanofficialbd" target="_blank">Labib Khan</a></p>
+        </div>
+    </div>
+
+    <!--Script-->
+    <script src="script.js"></script>
 </body>
 </html>
